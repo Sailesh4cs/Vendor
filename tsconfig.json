@@ -12,6 +12,15 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "compilerOptions": {
+        "experimentalDecorators": false,
+        "allowJs": true
+      }
+    },
+    {
+      "path": ".//tsconfig.worker.json"
     }
-]
+  ]
 }

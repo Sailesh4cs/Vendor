@@ -1,0 +1,30 @@
+.card {
+    min-width: 80%;
+  }
+  
+  .mat-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    min-width: 100%;
+  }
+  
+  .mat-table {
+    overflow: auto;
+    max-height: 500px;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  .margin{
+    margin-top: auto;
+  }
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  .filter {
+    min-height: 64px;
+    padding: 8px 24px 0;
+  }
+  
